@@ -1,0 +1,100 @@
+body {
+    background-color: #191919;
+}
+
+#andy_locks_logo_header {
+    max-width: 30px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.header_div {
+    -moz-box-align: center;
+    display: flex;
+    -moz-box-pack: justify;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #232323;
+    border-radius: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    margin: 5px;
+}
+
+h1, h3 {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 140%;
+}
+
+.header_icon {
+    max-width: 30px;
+}
+
+main {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#logo_and_name {
+    display: inline-flex;
+    align-items: center;
+}
+
+#header_github_icon_a {
+    width: 30px;
+}
+
+#contacts_icons {
+    width: 100px;
+    display: inline-flex;
+    align-items: center;
+}
+
+#discord_icon {
+    margin-left: 10px;
+}
+#header_discord_icon_a {
+    width: 50px;
+    display: inline-flex;
+    align-items: center;
+}
+
+footer {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#main_discord_logo {
+    width: 50px;
+    padding-right: 20px;
+}
+
+#main_andy_logo {
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+#main_div {
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.discord_nickname {
+    display: inline-flex;
+    align-items: center;
+}
