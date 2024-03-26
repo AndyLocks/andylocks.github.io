@@ -75,11 +75,6 @@ main {
     margin: 0;
 }
 
-#main_welcome_name:hover::after {
-    content: " (ИЛЬЯ КАРНАУХОВ)";
-    color: gray;
-}
-
 #contacts_icons {
     width: 100px;
     display: inline-flex;
