@@ -21,9 +21,8 @@ body {
 
 header {
     background-color: #232323;
-    border-radius: 15px;
-    margin-left: 50px;
-    margin-right: 50px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 p {
@@ -94,4 +93,124 @@ main {
 footer {
     margin-left: 50px;
     margin-right: 50px;
+}
+
+#programming_language {
+    text-align: center;
+}
+
+#programming_language p {
+    font-weight: 1000;
+    margin: 0;
+}
+
+.programming_language_icon {
+    max-width: 50px;
+}
+
+.tool_icon {
+    max-width: 50px;
+}
+
+.framework_icon {
+    max-width: 50px;
+}
+
+.database_icon {
+    max-width: 50px;
+}
+
+#language_list {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #232323;
+    border-radius: 15px;
+}
+
+#tools {
+    text-align: center;
+}
+
+#tools p {
+    font-weight: 1000;
+    margin: 0;
+}
+
+#tools_list {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #232323;
+    border-radius: 15px;
+}
+
+.tool {
+    margin: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.good_level {
+    color: #57F287;
+}
+
+.middle_level {
+    color: #FEE75C;
+}
+
+.basic_level {
+    color: #ED4245;
+}
+
+.language {
+    margin: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#frameworks {
+    text-align: center;
+}
+
+#frameworks p {
+    font-weight: 1000;
+    margin: 0;
+}
+
+#frameworks_list {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #232323;
+    border-radius: 15px;
+}
+
+.framework {
+    margin: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#databases {
+    text-align: center;
+}
+
+#databases p {
+    font-weight: 1000;
+    margin: 0;
+}
+
+#databases_list {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #232323;
+    border-radius: 15px;
+}
+
+.database {
+    margin: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
