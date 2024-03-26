@@ -57,8 +57,6 @@ h1 {
 main {
     margin-left: 50px;
     margin-right: 50px;
-    box-sizing: border-box;
-    flex: 0 0 auto;
 }
 
 .logo_and_name {
