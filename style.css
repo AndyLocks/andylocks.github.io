@@ -123,6 +123,7 @@ main {
 
 #language_list {
     display: inline-flex;
+    flex-wrap: wrap;
     align-items: center;
     padding: 10px;
     background-color: #232323;
@@ -140,6 +141,7 @@ main {
 
 #tools_list {
     display: inline-flex;
+    flex-wrap: wrap;
     align-items: center;
     padding: 10px;
     background-color: #232323;
@@ -165,6 +167,8 @@ main {
 }
 
 .language {
+    flex: 1 1 content;
+    box-sizing: border-box;
     margin: 10px;
     margin-left: 25px;
     margin-right: 25px;
@@ -181,6 +185,7 @@ main {
 
 #frameworks_list {
     display: inline-flex;
+    flex-wrap: wrap;
     align-items: center;
     padding: 10px;
     background-color: #232323;
@@ -191,6 +196,8 @@ main {
     margin: 10px;
     margin-left: 25px;
     margin-right: 25px;
+    flex: 1 1 content;
+    box-sizing: border-box;
 }
 
 #databases {
@@ -204,6 +211,7 @@ main {
 
 #databases_list {
     display: inline-flex;
+    flex-wrap: wrap; 
     align-items: center;
     padding: 10px;
     background-color: #232323;
@@ -214,6 +222,8 @@ main {
     margin: 10px;
     margin-left: 25px;
     margin-right: 25px;
+    flex: 1 1 content;
+    box-sizing: border-box;
 }
 
 #hobbys_section {
@@ -223,6 +233,7 @@ main {
 
 #hobbys_list {
     display: inline-flex;
+    flex-wrap: wrap;
 }
 
 .hobby {
@@ -232,6 +243,8 @@ main {
     max-height: 200px;
     background-color: #232323;
     border-radius: 15px;
+    flex: 1 1 content;
+    box-sizing: border-box;
 }
 
 .hobby p {
