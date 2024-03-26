@@ -2,7 +2,7 @@ body {
     background-color: #191919;
 }
 
-#andy_locks_logo_header {
+.andy_locks_logo_header {
     max-width: 30px;
     margin: 15px;
     border-radius: 50%;
@@ -52,7 +52,7 @@ main {
     margin-right: 50px;
 }
 
-#logo_and_name {
+.logo_and_name {
     display: inline-flex;
     align-items: center;
 }
@@ -108,4 +108,24 @@ footer {
     background-color: #232323;
     border-radius: 26.5px;
     padding: 22px;
+}
+
+footer {
+    margin-top: 300px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.footer_div {
+    display: flex;
+    align-items: center;
+    bottom: 0px;
+    background-color: #232323;
+    -moz-box-align: center;
+    display: flex;
+    -moz-box-pack: justify;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding-right: 15px;
 }

@@ -2,7 +2,7 @@ body {
     background-color: #191919;
 }
 
-#andy_locks_logo_header {
+.andy_locks_logo_header {
     max-width: 30px;
     margin: 15px;
     border-radius: 50%;
@@ -53,7 +53,7 @@ main {
     margin-right: 50px;
 }
 
-#logo_and_name {
+.logo_and_name {
     display: inline-flex;
     align-items: center;
 }
