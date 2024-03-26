@@ -62,16 +62,16 @@ main {
     width: 30px;
 }
 
-#main_welcome {
+.info_section {
     text-align: center;
     margin-top: 200px;
     margin-bottom: 200px;
 }
 
-#main_welcome p {
+.info_section p {
     margin: 0;
 }
-#main_welcome h1 {
+.info_section h1 {
     margin: 0;
 }
 
@@ -88,11 +88,6 @@ main {
     width: 50px;
     display: inline-flex;
     align-items: center;
-}
-
-footer {
-    margin-left: 50px;
-    margin-right: 50px;
 }
 
 #programming_language {
@@ -213,4 +208,47 @@ footer {
     margin: 10px;
     margin-left: 25px;
     margin-right: 25px;
+}
+
+#hobbys_section {
+    margin-top: 200px;
+    text-align: center;
+}
+
+#hobbys_list {
+    display: inline-flex;
+}
+
+.hobby {
+    margin: 15px;
+    padding: 15px;
+    width: 200px;
+    max-height: 200px;
+    background-color: #232323;
+    border-radius: 15px;
+}
+
+.hobby p {
+    font-weight: 800;
+    font-style: italic;
+}
+
+footer {
+    margin-top: 300px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.footer_div {
+    display: flex;
+    align-items: center;
+    bottom: 0px;
+    background-color: #232323;
+    -moz-box-align: center;
+    display: flex;
+    -moz-box-pack: justify;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding-right: 15px;
 }
