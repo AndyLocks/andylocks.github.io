@@ -98,6 +98,8 @@ main {
 
 #programming_language {
     text-align: center;
+    box-sizing: border-box;
+    flex: 0 0 auto;
 }
 
 #programming_language p {
@@ -152,6 +154,8 @@ main {
     margin: 10px;
     margin-left: 25px;
     margin-right: 25px;
+    box-sizing: border-box;
+    flex: 1 1 auto;
 }
 
 .good_level {
@@ -176,6 +180,8 @@ main {
 
 #frameworks {
     text-align: center;
+    box-sizing: border-box;
+    flex: 0 0 auto;
 }
 
 #frameworks p {
