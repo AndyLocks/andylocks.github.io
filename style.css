@@ -1,5 +1,6 @@
 body {
     background-color: #191919;
+    overflow-x: hidden;
 }
 
 #andy_locks_logo_header {
@@ -20,10 +21,8 @@ body {
     -moz-box-pack: justify;
     justify-content: space-between;
     align-items: center;
-    margin: auto;
-    width: 19%;
     box-sizing: border-box;
-    position: fixed;
+    position: fixed center;
     top: 0px;
     background-color: #232323;
     border-bottom-left-radius: 15px;
@@ -54,11 +53,6 @@ h1 {
     max-width: 30px;
 }
 
-main {
-    margin-left: 50px;
-    margin-right: 50px;
-}
-
 .logo_and_name {
     display: inline-flex;
     align-items: center;
@@ -82,7 +76,7 @@ main {
 }
 
 #contacts_icons {
-    width: 100px;
+    width: 86px;
     display: inline-flex;
     align-items: center;
 }
