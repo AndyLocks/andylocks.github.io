@@ -11,6 +11,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
+    <script src="script.js"></script>
 </head>
 <body>
     <header>
@@ -205,6 +208,14 @@
                 </div>
             </div>
         </div>
+        <div style="text-align: center;">
+            <div id="more_info">
+                <p>Password: </p>
+                <input id="more_info_input" type="password">
+                <button onclick="buttonClick()" id="more_info_button">More Info</button>
+            </div>
+        </div>
+        <h1 style="text-align: center;" id="more_info_text"></h1>
     </main>
     <footer>
         <div class="footer_div">

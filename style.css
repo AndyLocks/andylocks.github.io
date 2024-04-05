@@ -271,3 +271,44 @@ footer {
     margin: auto;
     padding-right: 15px;
 }
+
+#more_info {
+    flex-wrap: wrap;
+    display: inline-flex;
+    text-align: center;
+    margin-top: 500px;
+    align-items: center;
+}
+
+#more_info input {
+    background-color: #232323;
+    border: none;
+    width: 200px;
+    box-sizing: border-box;
+    height: 54.75px;
+    border-radius: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin: 15px;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    flex: 1 1 auto;
+}
+
+#more_info button {
+    background-color: #57F287;
+    border: none;
+    padding: 15px 30px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    border-radius: 15px;
+    font-weight: 700;
+    flex: 1 1 auto;
+    max-width: 161px;
+}
+
+#more_info button:hover {
+    background-color: #47c46e;
+}
