@@ -297,7 +297,7 @@ footer {
 }
 
 #more_info button {
-    background-color: #57F287;
+    background-color: #5865F2;
     border: none;
     padding: 15px 30px;
     color: white;
@@ -310,5 +310,9 @@ footer {
 }
 
 #more_info button:hover {
-    background-color: #47c46e;
+    background-color: #4b56cc;
+}
+
+#more_info_text {
+    font-size: 30px;
 }
