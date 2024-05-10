@@ -1,5 +1,5 @@
 body {
-    background-color: #191919;
+    background-color: #1e1e2e;
     overflow-x: hidden;
 }
 
@@ -24,26 +24,26 @@ body {
     box-sizing: border-box;
     position: fixed center;
     top: 0px;
-    background-color: #232323;
+    background-color: #181825;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
 
 header {
-    background-color: #232323;
+    background-color: #181825;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
 
 p {
     font-family: "Montserrat", sans-serif;
-    color: white;
+    color: #cdd6f4;
     margin: 5px;
 }
 
 h1, h3 {
     font-family: "Montserrat", sans-serif;
-    color: white;
+    color: #cdd6f4;
     font-size: 2.5rem;
     font-weight: 900;
     line-height: 140%;
@@ -115,7 +115,7 @@ footer {
 #repos {
     display: inline-block;
     align-items: center;
-    background-color: #232323;
+    background-color: #181825;
     border-radius: 26.5px;
     padding: 22px;
 }
@@ -129,7 +129,7 @@ footer {
     display: flex;
     align-items: center;
     bottom: 0px;
-    background-color: #232323;
+    background-color: #181825;
     -moz-box-align: center;
     display: flex;
     -moz-box-pack: justify;
