@@ -35,6 +35,14 @@ header {
     border-bottom-right-radius: 15px;
 }
 
+.info_section p {
+    background-color: #1e1e2e;
+    border-radius: 15px;
+    display: table; /* keep the background color wrapped tight */
+    margin: 0px auto 0px auto;
+    padding: 15px;
+}
+
 p {
     font-family: "Montserrat", sans-serif;
     color: #bac2de;
@@ -47,6 +55,11 @@ h1 {
     font-size: 2.5rem;
     font-weight: 900;
     line-height: 140%;
+    background-color: #1e1e2e;
+    border-radius: 15px;
+    display: table; /* keep the background color wrapped tight */
+    margin: 0px auto 0px auto;
+    padding: 15px;
 }
 
 .header_icon {
@@ -66,13 +79,6 @@ h1 {
     text-align: center;
     margin-top: 200px;
     margin-bottom: 200px;
-}
-
-.info_section p {
-    margin: 0;
-}
-.info_section h1 {
-    margin: 0;
 }
 
 #contacts_icons {
