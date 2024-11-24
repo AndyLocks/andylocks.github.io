@@ -38,7 +38,8 @@ header {
 .info_section p {
     background-color: #1e1e2e;
     border-radius: 15px;
-    display: table; /* keep the background color wrapped tight */
+    display: table;
+    /* keep the background color wrapped tight */
     margin: 0px auto 0px auto;
     padding: 15px;
 }
@@ -57,7 +58,8 @@ h1 {
     line-height: 140%;
     background-color: #1e1e2e;
     border-radius: 15px;
-    display: table; /* keep the background color wrapped tight */
+    display: table;
+    /* keep the background color wrapped tight */
     margin: 0px auto 0px auto;
     padding: 15px;
 }
@@ -90,6 +92,7 @@ h1 {
 #discord_icon {
     margin-left: 10px;
 }
+
 #header_discord_icon_a {
     width: 50px;
     display: inline-flex;
@@ -217,7 +220,7 @@ h1 {
 
 #databases_list {
     display: inline-flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     align-items: center;
     padding: 10px;
     background-color: #181825;
@@ -320,4 +323,12 @@ footer {
 
 #more_info_text {
     font-size: 30px;
+}
+
+hr {
+    width: 900px;
+    color: #313244;
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
