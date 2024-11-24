@@ -145,6 +145,7 @@ h1 {
 }
 
 #tools_list {
+    max-width: 976.433px;
     display: inline-flex;
     flex-wrap: wrap;
     align-items: center;
@@ -326,7 +327,8 @@ footer {
 }
 
 hr {
-    width: 900px;
+    z-index: -2;
+    width: 976.433px;
     color: #313244;
     border-radius: 5px;
     margin-top: 100px;
