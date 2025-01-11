@@ -334,3 +334,11 @@ hr {
     margin-top: 100px;
     margin-bottom: 100px;
 }
+
+#favourite_repos {
+    display: inline-block;
+    align-items: center;
+    background-color: #181825;
+    border-radius: 26.5px;
+    padding: 22px;
+}
